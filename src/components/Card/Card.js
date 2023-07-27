@@ -1,6 +1,5 @@
-import { toHaveDisplayValue } from "@testing-library/jest-dom/dist/matchers";
-import { type } from "@testing-library/user-event/dist/type";
 import React from "react";
+import "./Card.css";
 
 const Card = ({ pokemon }) => {
   return (
